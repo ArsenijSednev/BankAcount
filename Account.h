@@ -5,20 +5,20 @@ class BankAcount {
 private:
 	std::string name;
 	std::string surname;
-	unsigned int balansUSD;
-	unsigned int balansRu;
+	float balansUSD;
+	float balansRu;
 	std::string PrivatNumber;
 public:
 	BankAcount();
-	BankAcount(std::string fname, std::string fsurname, unsigned int fbalansUSD, unsigned int fbalansRu, std::string fPrivatNumber);
+	BankAcount(std::string fname, std::string fsurname, float fbalansUSD, float fbalansRu, std::string fPrivatNumber);
 
 	void setName(std::string);
 	void setSurname(std::string);
-	void setbalansUSD(unsigned int fbalansUSD);
-	void setbalansRu(unsigned int fbalansRU);
+	void setbalansUSD(float fbalansUSD);
+	void setbalansRu(float fbalansRU);
 	void setPrivatNumber(std::string fPrivatNumber);
-	void getbalansUSD(unsigned int);
-	void getbalansRu(unsigned int);
+	void getbalansUSD(float);
+	void getbalansRu(float);
 	void getPrivatNumber(std::string);
 	std::string getName();
 	std::string getSurname();
@@ -26,9 +26,10 @@ public:
 	unsigned int getbalansRu();
 	std::string getPrivatNumber();
 	void print();
-	void addbalansUSD(unsigned int);
-	void robbalansUSD(unsigned int);
-	void addbalansRu(unsigned int);
-
+	void addbalansUSD(float);
+	void addbalansRu(float fbalansRu);
+	void robbalansUSD(float);
+	void kursbalansRu(float);
+	void kursbalansUSD(float);
 
 };
