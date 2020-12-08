@@ -1,0 +1,6 @@
+﻿  ClassAccount.cpp
+F:\factorial\BankAcount\BankAcount\ClassAccount.cpp(30,50): warning C4244: return: преобразование "float" в "unsigned int", возможна потеря данных
+F:\factorial\BankAcount\BankAcount\ClassAccount.cpp(31,49): warning C4244: return: преобразование "float" в "unsigned int", возможна потеря данных
+F:\factorial\BankAcount\BankAcount\ClassAccount.cpp(39,24): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+F:\factorial\BankAcount\BankAcount\ClassAccount.cpp(45,24): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  BankAcount.vcxproj -> F:\factorial\BankAcount\Debug\BankAcount.exe
